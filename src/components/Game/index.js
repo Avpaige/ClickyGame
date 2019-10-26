@@ -53,8 +53,8 @@ class Game extends Component {
             if (score === 12) {
                 alert("Congratulations you won!")
                 score = 0;
-                highScore = 0;
-                this.setState({ highScore });
+                highScore =12;
+                this.setState({ score, highScore });
 
                 for (let i = 0; i < Members.length; i++) {
                     Members[i].clicked = false;
@@ -88,7 +88,7 @@ class Game extends Component {
                     score={this.state.score}
                     highScore={this.state.highScore}
                 />
-                <div className="container-fluid">
+                <div classNacme="container-fluid">
                     <div className="row">
                         {this.state.Members.map(Member => (
                             <Oceans

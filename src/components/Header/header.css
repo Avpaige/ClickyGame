@@ -1,0 +1,13 @@
+.container-fluid{
+    margin-top: 10px;
+    text-align:center;
+    background-color: rgb(201, 197, 247);
+    color: rgb(75, 72, 72);
+    margin-bottom: 10px;
+}
+
+.scoreBoard{
+    margin-top: 20px;
+    font-weight:bold;
+
+}

@@ -15,9 +15,9 @@ function Header(props) {
                     <h1>Ocean's Guess</h1>
                     <h5>Pick your heist teammates but don't pick the same person more than once or Terry Benedict is going to bust you!</h5>
                 </div>
-                <div className="col-2">
-                    <div className="score row"> <h6>Current Score: {props.score} </h6></div>
-                    <div className="highScore row"><h6>High Score: {props.highScore}</h6></div>
+                <div className="scoreBoard col-2">
+                    <div className="score row"> <h5>Current Score: {props.score} </h5></div>
+                    <div className="highScore row"><h5>High Score: {props.highScore}</h5></div>
                 </div>
             </div>
         </div >
