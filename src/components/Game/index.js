@@ -12,7 +12,7 @@ class Game extends Component {
     state = {
         Members,
         highScore,
-        score
+        score:0
     };
 
     componentDidMount = () => {
@@ -48,8 +48,8 @@ class Game extends Component {
 
         } else {
             selected.clicked = true;
-            score = score++;
-
+            score = score+1;
+                console.log(score)
             if (score === 12) {
                 alert("Congratulations you won!")
                 score = 0;
@@ -77,23 +77,30 @@ class Game extends Component {
             return 0.5 - Math.random();
         });
 
-     
+
     }
 
     render() {
+
         return (
-            <div className="container-fluid">
-                <div className="row">
-                    {this.state.Members.map(Member => (
-                        <Oceans
-                            thisWasClicked={this.thisWasClicked}
-                            id={Member.id}
-                            key={Member.id}
-                            image={Member.img}
-                            name={Member.name}
-                            className="col-sm-1"
-                        />
-                    ))}
+            <div>
+                <Header
+                    score={this.state.score}
+                    highScore={this.state.highScore}
+                />
+                <div className="container-fluid">
+                    <div className="row">
+                        {this.state.Members.map(Member => (
+                            <Oceans
+                                thisWasClicked={this.thisWasClicked}
+                                id={Member.id}
+                                key={Member.id}
+                                image={Member.img}
+                                name={Member.name}
+                                className="col-sm-1"
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         );
