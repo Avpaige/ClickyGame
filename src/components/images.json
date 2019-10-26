@@ -1,0 +1,64 @@
+[
+    {
+        "img": "./img/danny1.jpg",
+        "name": "Danny",
+        "id": "1"
+    },
+    {
+        "img": "./img/linus2.jpg",
+        "name": "Linus",
+        "id": "2"
+    },
+    {
+        "img": "./img/frank3.jpg",
+        "name": "Frank",
+        "id": "3"
+    },
+    {
+        "img": "./img/rusty4.jpg",
+        "name": "Rusty",
+        "id": "4"
+    },
+    {
+        "img": "./img/reuben5.jpg",
+        "name": "Reuben",
+        "id": "5"
+    },
+    {
+        "img": "./img/livingston6.jpg",
+        "name": "Livingston",
+        "id": "6"
+    },
+    {
+        "img": "./img/turk7.jpg",
+        "name": "Turk",
+        "id": "7"
+    },
+    {
+        "img": "./img/virgil8.jpg",
+        "name": "Virgil",
+        "id": "8"
+    },
+    {
+        "img": "./img/yen9.jpg",
+        "name": "Yen",
+        "id": "9"
+    },
+    {
+        "img": "./img/saul11.jpg",
+        "name": "Saul",
+        "id": "11"
+    },
+    {
+        
+        "img": "./img/basher10.jpg",
+        "name": "Basher",
+        "id": "10"
+        
+    },
+    {
+        "img": "./img/tess12.jpg",
+        "name": "Tess",
+        "id": "12"
+    } 
+]
