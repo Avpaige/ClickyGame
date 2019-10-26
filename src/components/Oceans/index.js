@@ -4,7 +4,7 @@ import style from "./oceans.css"
 export default (props) => {
     return (
         <div
-            onClick={() => props.setClicked(props.id)}
+            onClick={() => props.thisWasClicked(props.id)}
         >
             <img
                 className="img"

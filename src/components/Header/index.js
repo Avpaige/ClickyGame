@@ -5,7 +5,7 @@ import dice from "./dice.png"
 function Header(props) {
     console.log(props)
     return (
-        <div class="container-fluid">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-2">
                 <img src={dice}  width="200" height="100"/>
