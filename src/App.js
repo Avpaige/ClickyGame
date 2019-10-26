@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/index';
 import Oceans from './components/Oceans/index';
 import images from './components/images.json'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component{
   state={
@@ -12,10 +13,8 @@ class App extends Component{
   }
 
 
-
   myClick=(event)=>{
     console.log(event.target)
-
   }
 
   render() {
