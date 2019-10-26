@@ -2,63 +2,75 @@
     {
         "img": "./img/danny1.jpg",
         "name": "Danny",
-        "id": "1"
+        "id": "1",
+        "clicked": false
     },
     {
         "img": "./img/linus2.jpg",
         "name": "Linus",
-        "id": "2"
+        "id": "2",
+        "clicked": false
     },
     {
         "img": "./img/frank3.jpg",
         "name": "Frank",
-        "id": "3"
+        "id": "3",
+        "clicked": false
     },
     {
         "img": "./img/rusty4.jpg",
         "name": "Rusty",
-        "id": "4"
+        "id": "4",
+        "clicked": false
     },
     {
         "img": "./img/reuben5.jpg",
         "name": "Reuben",
-        "id": "5"
+        "id": "5",
+        "clicked": false
     },
     {
         "img": "./img/livingston6.png",
         "name": "Livingston",
-        "id": "6"
+        "id": "6",
+        "clicked": false
     },
     {
         "img": "./img/turk7.jpg",
         "name": "Turk",
-        "id": "7"
+        "id": "7",
+        "clicked": false
     },
     {
         "img": "./img/virgil8.jpg",
         "name": "Virgil",
-        "id": "8"
+        "id": "8",
+        "clicked": false
     },
     {
         "img": "./img/yen9.jpg",
         "name": "Yen",
-        "id": "9"
+        "id": "9",
+        "clicked": false
     },
     {
         "img": "./img/saul11.jpg",
         "name": "Saul",
-        "id": "11"
+        "id": "11",
+        "clicked": false
     },
     {
         
         "img": "./img/basher10.jpg",
         "name": "Basher",
-        "id": "10"
+        "id": "10",
+        "clicked": false
         
     },
     {
         "img": "./img/tess12.jpg",
         "name": "Tess",
-        "id": "12"
+        "id": "12",
+        "clicked": false
     } 
 ]
