@@ -8,7 +8,7 @@ import Game from './components/Game/index'
 function App() {
   return (
     <div>
-      <Header />
+      <Header/>
       <Game />
     </div>
   );
