@@ -9,7 +9,7 @@ export default (props) => {
             <img
                 className="img"
                 alt={props.name}
-                src={props.img}
+                src={props.image}
             />
         </div>
     )

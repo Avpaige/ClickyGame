@@ -24,9 +24,10 @@ class Game extends Component {
     }
 
     thisWasClicked = id => {
-        const Members = this.state.Members;
-        const selected = Members.find(Member => Member.id === id);
-        if (selected[0].clicked) {
+        let Members = this.state.Members;
+        let selected = Members.find(Member => Member.id === id);
+        console.log(selected)
+        if (selected.clicked) {
 
             if (score > highScore) {
                 highScore = score;
@@ -46,7 +47,7 @@ class Game extends Component {
             });
 
         } else {
-            selected[0].clicked = true;
+            selected.clicked = true;
             score = score++;
 
             if (score === 12) {
@@ -78,6 +79,7 @@ class Game extends Component {
 
      
     }
+
     render() {
         return (
             <div className="container-fluid">
